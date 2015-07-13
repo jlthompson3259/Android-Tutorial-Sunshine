@@ -3,6 +3,34 @@
 
     <string name="app_name">Sunshine</string>
     <string name="hello_world">Hello world!</string>
+    <string name="action_refresh" translatable="false">Refresh</string>
     <string name="action_settings">Settings</string>
+    <string name="action_map">Map Location</string>
+    <string name="action_share">Share</string>
+    <string name="title_activity_detail">Detail</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- label for the location preference [CHAR LIMIT=30] -->
+    <string name="pref_location_label">Location</string>
+
+    <!--Key name for storing location in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_location_key" translatable="false">location</string>
+
+    <!-- Default postal code for location preference [CHAR LIMIT=NONE] -->
+    <string name="pref_location_default" translatable="false">19440</string>
+
+    <string name="pref_units_label">Temperature Units</string>
+    <string name="pref_units_key" translatable="false">units</string>
+    <string name="pref_units_default" translatable="false">metric</string>
+    <string-array name="pref_units_list_labels">
+        <item>Metric</item>
+        <item>Imperial</item>
+    </string-array>
+    <string-array name="pref_units_list_values" translatable="false">
+        <item>metric</item>
+        <item>imperial</item>
+    </string-array>
+    <string name="pref_units_metric" translatable="false">metric</string>
+    <string name="pref_units_imperial" translatable="false">imperial</string>
 
 </resources>
